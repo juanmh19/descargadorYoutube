@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>Document</title>
+</head>
+<body>
+    <section class="hero">
+        <h1 class="hero__h1">Descargá videos de Youtube</h1>
+        <form action="/submit" method="post">
+            <input class="hero__input" type="text" placeholder="Ingresa el link del video" name="link" id="link">
+            <button class="hero__button" type="submit">Descargar</button>
+        </form>
+    </section>
+</body>
+</html>

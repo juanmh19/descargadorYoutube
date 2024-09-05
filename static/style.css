@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Work Sans", system-ui;
+
+}
+
+.hero, form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero {
+    height: 100vh;
+    text-align: center;
+    .hero__h1 {
+        font-size: 48px;
+    }
+    .hero__input {
+        border: 2px solid orange;
+        height: 2rem;
+        padding: 5px;
+        font-size: 18px;
+        width: 20rem;
+        border-radius: 20px;
+        margin: 20px 0;
+    }
+    .hero__button {
+        height: 3rem;
+        width: 9rem;
+        background-color: orange;
+        font-size: 18px;
+        font-weight: 600;
+        cursor: pointer;
+        border: none;
+        border-radius: 20px;
+    }
+    .hero__button:hover {
+        background-color: #12121200;
+        border: 3px solid orange;
+    }
+}
